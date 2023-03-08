@@ -25,7 +25,6 @@
 .locations, .amenities {
     height: 100%;
     width: 25%;
-    box-sizing: border-box;
 }
 .locations {
     border-right: 1px solid #DDDDDD;
@@ -33,13 +32,14 @@
 .locations h3, .amenities h3 {
     font-weight: 600;
     margin-bottom: 3px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
     margin-top: 2px;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-bottom: 16px;
 }
 .popover {
     display: none;
@@ -67,7 +67,7 @@ li {
     padding: 20px 0 30px;
 }
 .amenities li {
-    margin-left: 25px;
+    margin-left: 40px;
 }
 .locations:hover .popover {
     display: block;
